@@ -27,8 +27,6 @@ public class CoRoutineBehavior : MonoBehaviour
     private IEnumerator Counting()
     {
         
-      
-        
         startCountEvent.Invoke();
         yield return _wfsObj;
         while (counterNum.value > 0)
